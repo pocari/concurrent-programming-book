@@ -23,6 +23,6 @@ fn main() {
         let v1_after = lock.read().unwrap();
 
         println!("v1_after = {:?}", v1_after);
-        println!("*v1_after = {:?}", *v1_after);
+        println!("*v1_after = {:?}", *v1_after)
     }
 }

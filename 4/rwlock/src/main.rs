@@ -18,5 +18,11 @@ fn main() {
         }
     });
 
+    let hoge = {
+        let a = 1;
+        a + 2
+    };
+
+    println!("hoge is {}", hoge);
     th.join().unwrap();
 }
